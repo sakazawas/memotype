@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:audioplayers/audioplayers.dart';
 
 import '../models/study_item.dart';
 import '../models/study_mode.dart';
@@ -33,6 +34,9 @@ class _StudyPageState
   final FocusNode _answerFocusNode =
       FocusNode();
 
+  final AudioPlayer _audioPlayer =
+      AudioPlayer();
+
   int _currentIndex = 0;
 
   int _correctCount = 0;
@@ -60,6 +64,7 @@ class _StudyPageState
   void dispose() {
     _answerController.dispose();
     _answerFocusNode.dispose();
+    _audioPlayer.dispose();
 
     super.dispose();
   }
@@ -87,6 +92,12 @@ class _StudyPageState
 
     final correct =
         userAnswer == _correctAnswer;
+
+    if (correct) {
+      _audioPlayer.play(
+        AssetSource('sounds/correct.mp3'),
+      );
+    }
 
     setState(() {
       _answered = true;
