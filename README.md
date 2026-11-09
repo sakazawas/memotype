@@ -83,9 +83,13 @@ See PRIVACY.md for the Memotype Privacy Policy.
 Memotypeのプライバシーポリシーについては、PRIVACY.md を参照してください。
 
 Code Signing Policy / コード署名ポリシー
+Free code signing provided by SignPath.io, certificate by SignPath Foundation.
+
 See CODE_SIGNING.md for the Memotype Code Signing Policy.
 
-Memotypeのコード署名ポリシーについては、CODE_SIGNING.md を参照してください。
+See PRIVACY.md for the Memotype Privacy Policy.
+
+Memotypeのコード署名ポリシーについては CODE_SIGNING.md を参照してください。
 
 License / ライセンス
 Memotype is released under the MIT License.
