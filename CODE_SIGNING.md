@@ -38,9 +38,8 @@ Third-party or unrelated software must not be submitted using the Memotype signi
 6. Release Metadata
 Signed release artifacts should use consistent project metadata, including:
 
-Product name: Memotype
-Developer name: sakazawa
-Product version corresponding to the relevant Memotype release
+Product name: Memotype Product 
+version: corresponding to the relevant Memotype release
 
 7. Privacy
 Memotype's privacy policy is available in PRIVACY.md.
@@ -90,9 +89,8 @@ Approver: sakazawa
 6. リリースメタデータ
 署名対象となるリリース成果物では、以下を含むプロジェクトメタデータの一貫性を維持します。
 
-Product name: Memotype
-Developer name: sakazawa
-Product version: 対象となるMemotypeリリースに対応するバージョン
+Product name: Memotype Product 
+version: 対象となるMemotypeリリースに対応するバージョン
 
 7. プライバシー
 Memotypeのプライバシーポリシーは PRIVACY.md に記載しています。
