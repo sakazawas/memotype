@@ -1,5 +1,9 @@
 Memotype
 
+Screenshot / スクリーンショット
+Memotype screenshot
+![alt text](memotype_screenshot.png)
+
 Memotype is a keyboard-first repetition learning application built with Flutter.
 It is designed to help users improve both accuracy and speed through repeated typing-based study.
 
@@ -74,14 +78,14 @@ Memotypeは現在開発中です。
 Windows版を最初の公開版とし、その後Web、Android、iOSへの展開を予定しています。
 
 Privacy / プライバシー
-A detailed privacy policy will be provided before the public release.
+See PRIVACY.md for the Memotype Privacy Policy.
 
-正式公開前に、プライバシーポリシーを整備します。
+Memotypeのプライバシーポリシーについては、PRIVACY.md を参照してください。
 
-Code Signing Policy
-A code signing policy will be provided as part of the Windows release process.
+Code Signing Policy / コード署名ポリシー
+See CODE_SIGNING.md for the Memotype Code Signing Policy.
 
-Windows版の正式公開に向けて、コード署名ポリシーを整備します。
+Memotypeのコード署名ポリシーについては、CODE_SIGNING.md を参照してください。
 
 License / ライセンス
 Memotype is released under the MIT License.
